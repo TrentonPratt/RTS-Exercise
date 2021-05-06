@@ -9,5 +9,5 @@ search_bar = driver.find_element_by_name("q")
 search_bar.send_keys("RTS Labs")
 search_bar.send_keys(Keys.RETURN)
 
-result = driver.find_element_by_tag_name('h3') #first result always has tag name of h3
+result = driver.find_element_by_tag_name('h3') #h3 is tag name for first result of Google search
 result.click()
